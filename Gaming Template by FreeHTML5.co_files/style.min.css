@@ -342,7 +342,7 @@ a {
   width: 32%; }
 
 .grid-item {
-  margin-bottom: 20px;
+  margin-bottom: 25px;
   border-radius: 5px;
   overflow: hidden; }
   .grid-item:hover .grid-info {

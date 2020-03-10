@@ -8,13 +8,7 @@ html {
   font-size: 62.5%;
   overflow-x: hidden; }
 
-@font-face{
-  font-family: "American Captain";
-  src: url('../fonts/retro.ttf') format("opentype");
-}
-
 body {
-
   background-image: url(./../img/bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -42,10 +36,7 @@ body {
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
 
 h1 {
-  font-size: 4.8rem;
-  font-family: "retro";
-  
-}
+  font-size: 4.8rem; }
 
 h2 {
   font-size: 3.6rem; }
@@ -86,7 +77,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: "retro";
+  font-family: 'Josefin Sans', sans-serif;
   margin-top: 0; }
 
 p {
@@ -146,7 +137,7 @@ a:hover {
     text-decoration: none; }
 
 .color-primary {
-  color: rgb(161, 202, 187); }
+  color: #2CC990; }
 
 /* Colours */
 .text-orange {
@@ -159,7 +150,7 @@ a:hover {
   color: #FC665F; }
 
 a {
-  color:#FDBA51; }
+  color: #2CC990; }
 
 .fs-40 {
   font-size: 40px; }
@@ -246,7 +237,7 @@ a {
   padding-bottom: 0;
   border-radius: 0; }
   .not-on-top #header-navbar .container {
-    background-color: rgb(10, 22, 27);
+    background-color: #203A43;
     position: relative; }
   .not-on-top #header-navbar .triangle-up-left {
     width: 70px;
@@ -260,7 +251,7 @@ a {
       position: absolute;
       width: 142px;
       height: 142px;
-      background: rgb(10, 22, 27);;
+      background: #203A43;
       -webkit-transform: rotate(45deg);
       -ms-transform: rotate(45deg);
       transform: rotate(45deg);
@@ -283,7 +274,7 @@ a {
       position: absolute;
       width: 142px;
       height: 142px;
-      background: rgb(10, 22, 27);;
+      background: #203A43;
       -webkit-transform: rotate(45deg);
       -ms-transform: rotate(45deg);
       transform: rotate(45deg);
@@ -317,6 +308,12 @@ a {
     position: absolute;
     display: block;
     content: "";
+    background: #0F2027;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     opacity: 0.9;
     top: 0;
     bottom: 0;
@@ -706,8 +703,3 @@ section.bg-grey .square-right:after {
     right: -46px; }
   .client-item img {
     width: 100%; } }
-
-.gameboy_cote{
-  position:absolute; top:20px; left:10px;
-}
-

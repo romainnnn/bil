@@ -95,7 +95,10 @@ p {
   line-height: 1.5em; }
 
 .display-2 {
-  font-weight: 700; }
+  font-weight: 1000; 
+  font-size: 80px;
+  color: #fffb15;
+}
 
 .section-title,
 .section-sub-title {
@@ -132,7 +135,7 @@ a:hover {
   text-align: center; }
 
 .bg-white {
-  background-color: #fff; }
+  background-color: red; }
 
 .bg-grey {
   background-color: #f7f8f9; }

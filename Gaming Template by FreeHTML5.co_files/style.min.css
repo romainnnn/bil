@@ -315,7 +315,8 @@ a {
     .jumbotron {
       min-height: 97vh; } }
   .jumbotron .container {
-    position: relative; }
+    position: relative;
+   }
   .jumbotron:before {
     position: absolute;
     display: block;
@@ -710,7 +711,5 @@ section.bg-grey .square-right:after {
   .client-item img {
     width: 100%; } }
 
-.gameboy_cote{
-  position:absolute; top:20px; left:10px;
-}
+
 

@@ -96,8 +96,9 @@ p {
 
 .display-2 {
   font-weight: 1000; 
+  position:absolute; top:-400px; left:400px;
   font-size: 80px;
-  color: #fdfa41;
+  color:#e3126d;
 }
 
 .section-title,
@@ -118,7 +119,7 @@ button:focus {
 .btn:hover,
 a:hover {
   text-decoration: none;
-  color: #d05165; }
+  color: #32c949; }
 
 .btn-group-lg > .btn, .btn-lg {
   padding: 1rem; }
@@ -162,7 +163,7 @@ a:hover {
   color: #FC665F; }
 
 a {
-  color:#FDBA51; }
+  color:#b0edf5; }
 
 .fs-40 {
   font-size: 40px; }

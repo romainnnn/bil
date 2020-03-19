@@ -127,6 +127,7 @@ a:hover {
   padding: .5rem; }
 
 .section-content {
+  background-image: url(arriereplan.png);
   padding-top: 80px;
   padding-bottom: 80px; }
 
@@ -176,6 +177,7 @@ a {
   /* Prevent inheritance from `body` */
   background-color: #fff;
   border: .05rem solid #fff; }
+  background-image: url(arriereplan.png);
 
 .btn:not(.btn-link):hover {
   box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);

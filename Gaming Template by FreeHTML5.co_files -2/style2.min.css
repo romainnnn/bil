@@ -214,9 +214,13 @@ a {
   border-top-left-radius: 5px;
   padding-top: 0;
   padding-bottom: 0; }
-  #header-navbar .triangle-up-left,
+  #header-navbar .triangle-up-left{
+    position: absolute;
+    top: 20px;
+  }
   #header-navbar .triangle-up-right {
-    position: absolute; }
+    position: absolute; 
+  }
   #header-navbar .container {
     padding-top: 15px;
     padding-bottom: 15px; }
@@ -256,7 +260,7 @@ a {
     width: 70px;
     height: 70px;
     position: absolute;
-    top: 0px;
+    top: -15px;
     left: -70px;
     overflow: hidden; }
     .not-on-top #header-navbar .triangle-up-left:after {
@@ -279,7 +283,7 @@ a {
     width: 70px;
     height: 70px;
     position: absolute;
-    top: 0px;
+    top: -15px;
     right: -70px;
     overflow: hidden; }
     .not-on-top #header-navbar .triangle-up-right:after {

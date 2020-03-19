@@ -157,7 +157,7 @@ a:hover {
   color: #FDBA51; }
 
 .text-cyan {
-  color: #35B8AD; }
+  color: #ffff; }
 
 .text-red {
   color: #FC665F; }
@@ -716,4 +716,6 @@ section.bg-grey .square-right:after {
 .gameboy_cote{
   position:absolute; top:20px; left:10px;
 }
-
+.scramble{
+  
+}
